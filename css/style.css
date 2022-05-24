@@ -1,0 +1,132 @@
+.header {
+  background: #ffffff;
+  height: 50px;
+}
+.manu-bars {
+  background: #e5e5e5;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+}
+.manu-icon {
+  color: #000;
+}
+.hide-menu {
+  position: absolute;
+  top: 12px;
+  left: 14;
+  bottom: 0;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.manu-logo {
+  margin-left: 10px;
+}
+.manu-logo h1 {
+  color: #030303;
+  font-size: 25px;
+}
+.manu-logo a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.logo {
+  color: red;
+  padding: 5px;
+}
+/* searching */
+.searching {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.search-area {
+  width: 85%;
+  padding: 8px;
+  outline: none;
+}
+.search-icon {
+  padding: 9px 30px;
+  outline: none;
+  border: 1px solid #000;
+  background: #e9e9e9;
+  border-left: 0;
+}
+.search-icon:hover {
+  outline: none;
+}
+.voice-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 25px;
+}
+.right-side {
+  display: flex;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+}
+.item {
+  display: flex;
+}
+.item-link {
+  padding: 5px 20px;
+  font-size: 30px;
+}
+.user-icon {
+  color: gray;
+}
+.user img {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+/* left sidebar */
+/* #sidebar {
+  width: 260px;
+  position: fixed;
+  left: -100%;
+} */
+
+#sidebar.active {
+  left: 0;
+}
+.siderbar-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+}
+.left-mane {
+  margin-bottom: 5px;
+  padding: 10px 0px;
+  transition: 0.3s;
+}
+.left-mane:hover {
+  background: #f2f2f2;
+}
+.sidebar-text {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-left: 8px;
+  color: #000;
+}
+.left-mane a:hover {
+  text-decoration: none;
+}
+.homeactive {
+  background: #d9d9d9;
+}
