@@ -1,6 +1,7 @@
 .header {
   background: #ffffff;
-  height: 60px;
+  height: 70px;
+  box-shadow: 0px 1px;
 }
 
 .mbtn {
@@ -125,5 +126,45 @@
 }
 .show-title {
   text-transform: uppercase;
+  margin-left:5px;
+}
+.ektiar{
+  width: 40%;
+  
+  justify-content: space-between;
   margin-left: 20px;
 }
+
+
+/* main part */
+ .list-container{
+   margin-top: 10px;
+   align-items: center;
+   text-align: justify;
+ }
+.thumbnail{
+  width: 100%;
+  border-radius: 5%;
+}
+.manimg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.flex-div{
+   margin-top: 7px;
+   display: flex;
+}
+ .vid-info{
+   margin-left: 10px;
+    
+ }
+ .vid-info a{
+   color: #000;
+   text-decoration: none;
+   text-transform: capitalize;
+ }
+ .vid-info p{
+   margin-top: 8px;
+   line-height: 10px;
+ }
